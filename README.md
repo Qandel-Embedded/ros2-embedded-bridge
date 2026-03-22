@@ -2,7 +2,7 @@
   <h1>🤖 ros2-embedded-bridge</h1>
 
   [![CI](https://github.com/Qandel-Embedded/ros2-embedded-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/Qandel-Embedded/ros2-embedded-bridge/actions)
-  [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg)](https://paypal.me/ahmedqandel)
+  [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg)](https://www.paypal.com/donate/?business=freelacning8518@gmail.com)
 </div>
 
 A lightweight bridge connecting ROS2 humble/foxy to resource-constrained microcontrollers (Arduino, STM32, PIC) via UART or MQTT, without the overhead of micro-ROS.

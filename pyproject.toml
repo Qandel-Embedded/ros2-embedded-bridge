@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "ros2-embedded-bridge"
+version = "1.0.0"
+description = "A seamless bridge between ROS2 and embedded microcontrollers using UART/MQTT"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Ahmed Qandel", email = "contact@ahmedqandel.com"}]
+requires-python = ">=3.9"
+dependencies = ["pyserial>=3.5", "paho-mqtt>=1.6"]
+keywords = ["ros2", "embedded", "robotics", "uart", "mqtt"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: System :: Hardware",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+ros2-bridge = "ros2_embedded_bridge.node:main"
